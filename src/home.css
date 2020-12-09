@@ -1,0 +1,20 @@
+﻿
+
+.home p {
+    padding: 0 5%;
+}
+
+.home ul {
+    margin-left: 7%;
+}
+
+.home li {
+    margin-bottom: 7px;
+}
+
+.profile {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}

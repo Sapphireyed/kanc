@@ -1,0 +1,24 @@
+﻿.service img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: auto;
+}
+
+.service h1 {text-align: center;}
+.service li {margin-bottom: 7px;}
+
+.spec {
+    padding: 0 0 0 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.specPart2 {
+    padding: 0 45px 0 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.specjalizacja {
+    margin-top: 20px;
+}
