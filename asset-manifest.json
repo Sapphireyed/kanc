@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/kanc/static/css/main.eb8b4dc5.chunk.css",
-    "main.js": "/kanc/static/js/main.d6befdd4.chunk.js",
-    "main.js.map": "/kanc/static/js/main.d6befdd4.chunk.js.map",
+    "main.css": "/kanc/static/css/main.ea5c005e.chunk.css",
+    "main.js": "/kanc/static/js/main.6396d36e.chunk.js",
+    "main.js.map": "/kanc/static/js/main.6396d36e.chunk.js.map",
     "runtime-main.js": "/kanc/static/js/runtime-main.9fbe0e74.js",
     "runtime-main.js.map": "/kanc/static/js/runtime-main.9fbe0e74.js.map",
     "static/js/2.4fdcd1d0.chunk.js": "/kanc/static/js/2.4fdcd1d0.chunk.js",
     "static/js/2.4fdcd1d0.chunk.js.map": "/kanc/static/js/2.4fdcd1d0.chunk.js.map",
     "index.html": "/kanc/index.html",
-    "static/css/main.eb8b4dc5.chunk.css.map": "/kanc/static/css/main.eb8b4dc5.chunk.css.map",
+    "static/css/main.ea5c005e.chunk.css.map": "/kanc/static/css/main.ea5c005e.chunk.css.map",
     "static/js/2.4fdcd1d0.chunk.js.LICENSE.txt": "/kanc/static/js/2.4fdcd1d0.chunk.js.LICENSE.txt",
     "static/media/court.8b243a15.png": "/kanc/static/media/court.8b243a15.png",
+    "static/media/justice.ee909d19.png": "/kanc/static/media/justice.ee909d19.png",
     "static/media/kryst.eebfe41e.png": "/kanc/static/media/kryst.eebfe41e.png",
     "static/media/logo2.31efab05.png": "/kanc/static/media/logo2.31efab05.png",
     "static/media/pharm.a34f9bf4.png": "/kanc/static/media/pharm.a34f9bf4.png",
@@ -21,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9fbe0e74.js",
     "static/js/2.4fdcd1d0.chunk.js",
-    "static/css/main.eb8b4dc5.chunk.css",
-    "static/js/main.d6befdd4.chunk.js"
+    "static/css/main.ea5c005e.chunk.css",
+    "static/js/main.6396d36e.chunk.js"
   ]
 }
