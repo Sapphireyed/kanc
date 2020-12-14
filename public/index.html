@@ -4,16 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1" />
-    <title>React App</title>
-   
+    <title>Kancelaria Radcy Prawnego Krystian Szulc</title>
+    <script src="https://kit.fontawesome.com/0b5e8097db.js" crossorigin="anonymous"></script>
+    <style>
+        #up {
+            position: fixed;
+            bottom:4%;
+            right: 4%;
+        }
+        #maincontent {
+            position: absolute;
+            top: 50%;
+            left: 18%;
+            display: block;
+            z-index: 1;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 1px darkred;
+        }
+
+        #main1 {
+            margin: 0 0 0 16%;
+        }
+        .main-wrapper {
+            overflow: hidden;
+        }
+
+        .mainBg {
+            background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/92558329513649.55f71175b0eee.png');
+            overflow: hidden;
+            background-size: cover;
+            background-position: top center;
+            height: 600px;
+            width: 1500px;
+            animation: slide-bg 18s linear infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes slide-bg {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(-120px, 0, 0);
+            }
+        }
+        /*small screen*/
+        @media only screen and (max-width: 600px) {
+            #maincontent {
+                top: 46%;
+                font-size: 36px;
+            }
+            .mainBg {
+                animation: slide-bg 30s linear infinite;
+                animation-direction: alternate;
+            }
+
+            @keyframes slide-bg {
+                0% {
+                   transform: translate3d(0, 0, 0);
+                }
+
+                100% {
+                   transform: translate3d(-1000px, 0, 0);
+                }
+            }
+        }
+        /*big screen*/
+        @media only screen and (min-width: 1400px) {
+            #maincontent {
+                top: 43%;
+            }
+            .mainBg {
+                height: 650px;
+                width: 1700px;
+                animation: slide-bg 18s linear infinite;
+                animation-direction: alternate;
+            }
+            @keyframes slide-bg {
+                0% {
+                    transform: translate3d(0, 0, 0);
+                }
+
+                100% {
+                    transform: translate3d(-120px, 0, 0);
+                }
+            }
+        }
+         
+    </style>
 </head>
 <body>
+    <div id="top"></div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="lFe8vPfm"></script>
+    <div id="links">
 
-    <nav id="nav"></nav>
+    </div>
+
+    <section id="main1" style="">
+        <div class='main-wrapper' id='wrapper-main' style="margin-top: ">
+            <div>
+                <div id='maincontent'></div>
+            </div>
+            <div class="mainBg" id='mainBg' style="margin-top: -110px">
+
+            </div>
+        </div>
+    </section>
+
+    <div id="nav" style="display:"></div>
     <div id="side"></div>
     <div id="main"></div>
-    <div id="home"></div>
+    <div id="mainPg" style="display: none"></div>
+    <div id="home" style="display: none"></div>
     <div id="service" style="display: none"></div>
     <div id="kontakt" style="display: none"></div>
+    <div id="hist" style="display: none"></div>
+
+    <a href="#top"><i id="up" class="fas fa-arrow-alt-circle-up fa-2x" style="display: "></i></a>
+  
+    <script>
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("up").style.display = "block";
+            } else {
+                document.getElementById("up").style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
