@@ -1,0 +1,16 @@
+﻿.profile {
+    display: block;
+    margin: 15px auto;
+}
+
+@media only screen and (min-width: 900px) {
+    .court {
+        right: -10px;
+        float: right;
+    }
+
+    .hist p {
+        margin-right: -100px;
+    }
+
+}

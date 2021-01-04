@@ -1,0 +1,14 @@
+﻿.exp h1 {
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    left: 20%;
+    right: 20%;
+    bottom: 3%;
+    text-shadow: 2px 1px grey;
+    z-index: 1;
+}
+
+.exp {
+    background-color: #6d0016;
+}

@@ -1,0 +1,19 @@
+﻿
+
+
+blockquote {
+    font: 18px/30px normal Tahoma, sans-serif;
+    padding-top: 22px;
+    margin: 5px;
+    background-image: url(//demo.techglimpse.com/images/openquote3.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: 65px;
+}
+
+    blockquote span {
+        display: block;
+        background-image: url(//demo.techglimpse.com/images/closequote3.gif);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }

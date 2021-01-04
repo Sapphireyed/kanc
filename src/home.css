@@ -1,15 +1,26 @@
-﻿
+﻿.home {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .home p {
-    padding: 0 5%;
+    padding: 0 5% 0 0;
 }
 
 .home ul {
-    margin-left: 7%;
+  
+    padding: 0 5% 0 0;
 }
 
 .home li {
     margin-bottom: 7px;
+}
+
+.home h2 {
+    text-shadow: 3px 3px black;
+    box-shadow: 2px 2px black;
+    padding: 3px;
+    text-align: center;
 }
 
 .profile {
@@ -17,4 +28,20 @@
     height: auto;
     display: block;
     margin: 15px auto;
+
+    box-shadow: 6px 6px 8px #242425;
+}
+
+#kanch1 {}
+@media only screen and (min-width: 900px) {
+    .profile {
+        float:right;
+    }
+    .home p {
+        margin-right: -100px;
+    }
+
+    .home li {
+        margin-right: -100px;
+    }
 }

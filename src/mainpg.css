@@ -1,0 +1,56 @@
+﻿#mainpgDiv {
+    margin: 0 0 0 16%;
+    border-width: 7px 0 0 0;
+    border-style: solid;
+    border-color: rgb(109, 0, 22);
+}
+
+#mainpgDiv h2 {
+    text-align: center;
+}
+.pharmMain {
+    background-image: url('img/pharmbg-wb.png');
+    background-size: cover;
+    height: 250px;
+    padding: 0 20px;
+}
+
+#pharmDiv {
+    color: rgba(109, 0, 22);
+    background-color: rgba(255, 255, 255, .4);
+    text-align: center;
+    text-shadow: 2px 2px lightgrey;
+}
+
+.kato {
+    background-image: url('img/kato-wb.png');
+    height: 250px;
+    background-size: cover;
+    font-family: "Brush Script MT Lucida Handwriting", Cursive;
+    padding: 0 20px;
+    text-shadow: 2px 2px black;
+}
+#kancDiv {
+    color: #96001e;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    text-shadow: 1px 1px lightgrey;
+}
+
+.maxim {
+    background-image: url('img/lawbooks.png');
+    background-size: cover;
+    height: 250px;
+    font-family: "Brush Script MT Lucida Handwriting", Cursive;
+    padding: 0 20px;
+    text-shadow: 2px 2px black;
+}
+
+#chosenMaxim {
+    background-color: rgba(109, 0, 22, .2);
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+}

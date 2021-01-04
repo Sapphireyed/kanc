@@ -1,8 +1,9 @@
 ﻿.service img {
     display: block;
-    margin: auto;
+    margin: 10px auto;
     width: 250px;
     height: auto;
+    box-shadow: 6px 6px 8px #242425;
 }
 
 .service h1 {text-align: center;}
@@ -21,4 +22,31 @@
 }
 .specjalizacja {
     margin-top: 20px;
+}
+
+.spech1 {
+    margin-left: 31%;
+}
+
+@media only screen and (max-width: 600px) {
+    .spec {
+        padding: 0 45px 0 20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .spech1 {
+        margin: 0 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .service img {
+        right: -10px;
+        float: right;
+    }
+
+    .service p, .service li {
+        margin-right: -100px;
+    }
+    .specPart2 {margin-right: 15px;}
 }

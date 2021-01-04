@@ -12,6 +12,12 @@
             bottom:4%;
             right: 4%;
         }
+        #linkedin {
+            position: fixed;
+            right:0;
+            bottom:26%;
+            cursor: pointer
+        }
         #maincontent {
             position: absolute;
             top: 50%;
@@ -125,9 +131,11 @@
     <div id="hist" style="display: none"></div>
 
     <a href="#top"><i id="up" class="fas fa-arrow-alt-circle-up fa-2x" style="display: "></i></a>
-  
+    <a href="https://www.linkedin.com/company/prawo-farmaceutyczne/">
+        <i id="linkedin" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+
     <script>
-        
+
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 document.getElementById("up").style.display = "block";

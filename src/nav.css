@@ -1,28 +1,70 @@
 ﻿.menu {
-    background-color: #002549;
+    background-color: #242425;
     position: fixed;
-    top: 105px;
-    width: 15%;
+    top: 64px;
+    width: 16%;
     height: 100vh;
     font-size: 20px;
     color: white;
     border-right: 4px solid white;
+    z-index: 2;
 }
 .menu ul {
         list-style-type: none;
         margin-left: -10px;
         margin-top: 50px;
 }
-.menu li {margin: 0 0 10px 0}
+    .menu li {
+        margin: 0 0 10px 0;
+    }
 .menu a {text-decoration: none; color: white;}
 
     .menu::after {
         content: " ";
         position: absolute;
-        top: 40%; /* At the bottom of the tooltip */
+        top: 40%;
         left: 110%;
         margin-left: -1.4vw;
         border-width: 15px;
         border-style: solid;
         border-color: transparent transparent transparent white;
     }
+
+.side {
+    transition: transform 0.5s;
+    transition-timing-function: cubicBezier(0, .52, 0, 1);
+    transform: translate3d(-99%, 0, 0);
+}
+
+.sideShown {
+    transition: transform .5s;
+    transition-timing-function: cubicBezier(0, .52, 0, 1);
+    transform: translate3d(0vw, 0, 0);
+}
+
+#logo {background-color: white;}
+@media only screen and (max-width: 900px) {
+    .menu { 
+        width: 50%;
+        text-align: center;
+        top: 78px;
+    }
+    .menu::after {
+        left: 105%;
+        margin-left: -1.4vw;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        top: 66px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .menu {
+        width: 80%;
+        top: 94px;
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/kanc/static/css/main.77b7c927.chunk.css",
+    "main.js": "/kanc/static/js/main.72e29bb3.chunk.js",
+    "main.js.map": "/kanc/static/js/main.72e29bb3.chunk.js.map",
+    "runtime-main.js": "/kanc/static/js/runtime-main.9fbe0e74.js",
+    "runtime-main.js.map": "/kanc/static/js/runtime-main.9fbe0e74.js.map",
+    "static/js/2.bebce22e.chunk.js": "/kanc/static/js/2.bebce22e.chunk.js",
+    "static/js/2.bebce22e.chunk.js.map": "/kanc/static/js/2.bebce22e.chunk.js.map",
+    "index.html": "/kanc/index.html",
+    "static/css/main.77b7c927.chunk.css.map": "/kanc/static/css/main.77b7c927.chunk.css.map",
+    "static/js/2.bebce22e.chunk.js.LICENSE.txt": "/kanc/static/js/2.bebce22e.chunk.js.LICENSE.txt",
+    "static/media/court1.9ae8ed40.png": "/kanc/static/media/court1.9ae8ed40.png",
+    "static/media/mainpg.css": "/kanc/static/media/pharmbg-wb.2d9555e1.png",
+    "static/media/kryst.eebfe41e.png": "/kanc/static/media/kryst.eebfe41e.png",
+    "static/media/logo.f1a86f35.png": "/kanc/static/media/logo.f1a86f35.png",
+    "static/media/pharm.a34f9bf4.png": "/kanc/static/media/pharm.a34f9bf4.png",
+    "static/media/profilecirc.17e69c3e.png": "/kanc/static/media/profilecirc.17e69c3e.png",
+    "static/media/scale3.67f5404c.png": "/kanc/static/media/scale3.67f5404c.png",
+    "static/media/service2.32b122aa.png": "/kanc/static/media/service2.32b122aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fbe0e74.js",
+    "static/js/2.bebce22e.chunk.js",
+    "static/css/main.77b7c927.chunk.css",
+    "static/js/main.72e29bb3.chunk.js"
+  ]
+}
